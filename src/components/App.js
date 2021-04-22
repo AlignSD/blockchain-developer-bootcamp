@@ -18,6 +18,7 @@ class App extends Component {
   }
 
   async loadBlockchainData(dispatch) {
+    if (window.ethereum.request({ method: 'eth_requestAccounts' })){
     const web3 = await loadWeb3(dispatch)
     const networkId = await web3.eth.net.getId()
     await loadAccount(web3, dispatch)
@@ -32,6 +33,7 @@ class App extends Component {
       return
     }
   }
+}
 
   render() {
     console.log(this.props.account)
