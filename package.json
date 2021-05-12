@@ -4,7 +4,7 @@
   "description": "Decentralized Ethereum Token Exchange",
   "author": "evanjalioto@gmail.com",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://eth-marketplace.herokuapp.com/",
   "engines": {
     "node": "8.11.1"
   },
