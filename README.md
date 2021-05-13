@@ -38,7 +38,7 @@ The app uses the following technologies:
 
 - [React](https://reactjs.org/) is used to run the application.
 - [Solidity](https://soliditylang.org/) is used to create the Smart Contracts.
-- [Truffle]https://www.trufflesuite.com/) is used to provide a local test blockchain.
+- [Truffle](https://www.trufflesuite.com/) is used to provide a local test blockchain.
 - [Chai](https://www.chaijs.com/) is used for the testing of smart contracts.
 - [Redux](https://redux.js.org/) is used to handle state management throught the application.
 
